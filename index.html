@@ -202,10 +202,14 @@
     .tool-card.stacker::after {
       background: linear-gradient(90deg, #f5a623, #fada5e);
     }
+    .tool-card.trackeditor::after {
+      background: linear-gradient(90deg, #2d9c8a, #52c7b8);
+    }
 
     .tool-card.editor .tool-icon { color: #b8a0d4; }
     .tool-card.stamper .tool-icon { color: #8898ff; }
     .tool-card.stacker .tool-icon { color: #f5a623; }
+    .tool-card.trackeditor .tool-icon { color: #52c7b8; }
 
     @media (max-width: 700px) {
       .dashboard { padding: 24px 18px 30px; }
@@ -249,7 +253,7 @@
         <div class="tool-desc">
           Stamp branding logo, signature, and watermark on pieces. Per-stamp scale & rotation variance.
         </div>
-		<div class="tool-meta">
+        <div class="tool-meta">
         </div>
         <div class="tool-link">
           Open stamper <span class="arrow">→</span>
@@ -261,13 +265,26 @@
         <div class="tool-icon">📄</div>
         <div class="tool-name">Stacker</div>
         <div class="tool-desc">
-          Combine 2–4 images into a single letter or A4 page. Adjustable
-          vertical weights, zoom, offsets and fit modes.
+          Combine 2–4 images into a single letter or A4 page. For creating a single piece from single stanza videos.
         </div>
-		<div class="tool-meta">
+        <div class="tool-meta">
         </div>
         <div class="tool-link">
           Open stacker <span class="arrow">→</span>
+        </div>
+      </a>
+
+      <!-- TRACK EDITOR -->
+      <a class="tool-card trackeditor" href="trackeditor.html">
+        <div class="tool-icon">🎧</div>
+        <div class="tool-name">Track Editor</div>
+        <div class="tool-desc">
+          Pitch shifting, speed and volume adjustment for audio tracks.
+        </div>
+        <div class="tool-meta">
+        </div>
+        <div class="tool-link">
+          Open track editor <span class="arrow">→</span>
         </div>
       </a>
     </div>
